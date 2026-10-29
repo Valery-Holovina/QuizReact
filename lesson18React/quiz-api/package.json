@@ -1,0 +1,19 @@
+{
+  "name": "quiz-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Educational quiz REST API built with Express and SQLite",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "db:reset": "node src/db/reset.js",
+    "check": "node src/check.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
